@@ -8,6 +8,8 @@ int main(){
     int n;
     cin>>n;
 
+
+
     int low = 0;
     int high = 8;
 
