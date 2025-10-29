@@ -10,9 +10,7 @@ void bfs(vector<vector<int>>& adj, int s)
     // Create a queue for BFS
     queue<int> q;
 
-    // Initially mark all the vertices as not visited
-    // When we push a vertex into the q, we mark it as
-    // visited
+
     vector<bool> visited(adj.size(), false);
 
     // Mark the source node as visited and
